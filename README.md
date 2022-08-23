@@ -1,1 +1,1 @@
-Nayab's Chaaaaaat App
+Nayab's Chat App
