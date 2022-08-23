@@ -360,7 +360,7 @@
           value: function userNameUpdate(name) {
             var _this = this;
 
-            this.socket = socket_io_client__WEBPACK_IMPORTED_MODULE_0__["io"]("https://chat-competent-programming.herokuapp.com/?userName=".concat(name));
+            this.socket = socket_io_client__WEBPACK_IMPORTED_MODULE_0__["io"]("http://127.0.0.1:3000/?userName=".concat(name));
             this.userName = name;
             this.socket.emit('set-user-name', name);
             this.socket.on('user-list', function (userList) {
